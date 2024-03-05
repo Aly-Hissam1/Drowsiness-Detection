@@ -1,16 +1,16 @@
 # Drowsiness-Detection
-Procedure to run the program:
+Description
+This program is designed to track and driver eye movements using a video stream. It utilizes computer vision techniques to detect and analyze the movement of the eyes. By following the provided instructions, you can run the program and observe the eye tracking in real-time.
 
-1- Download all libraries used.
+Setup
+Prepare the dataset file and place it in a known path.
+Copy the path of the dataset file and replace the existing path in the program.
+Prepare the music file for the alarm sound and place it in a known path.
+Copy the path of the music file and replace the existing path in the program.
 
-2- Put the dataset file in a known path and copy the path and paste it instead of the existed path.
 
-3- Put the music file in a known path and copy the path and paste it instead of the eaisted path.
-
-4- if your laptop has camera you should write "device" when the program ask you to which camera should run.
-
-5- At first, you should close your eyes around 90% to make the program take the reference area of the eye.
-
-6- secondly, you should enter the duration time "I would recommend 10 sec".
-
-7- finally, the video stream will run to check your eye.
+Running the Program
+If your laptop has a camera, when prompted to select the camera, enter "device".
+Close your eyes around 90% to allow the program to capture the reference area of the eye.
+Enter the duration time (recommendation: 10 seconds).
+The program will start the video stream to track your eye movements.
